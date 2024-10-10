@@ -6,7 +6,6 @@ import { Metadata } from 'next'
 import './global.scss';
 import { tsr } from '../pages-tsr';
 import { Layout } from '../components/fe/Layout';
-import { Head } from 'next/document';
 
 export const queryClient = new QueryClient();
 export const metadata: Metadata = {

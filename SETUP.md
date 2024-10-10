@@ -114,6 +114,7 @@ docker-compose up
 nx prisma-generate ts-rest-type-safety-app
 nx prisma-migrate ts-rest-type-safety-app --name=initial_migration
 nx prisma-deploy ts-rest-type-safety-app
+nx prisma-studio ts-rest-type-safety-app
 
 
 ```

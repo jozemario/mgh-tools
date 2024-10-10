@@ -53,6 +53,8 @@ const postsRouter = createNextRoute(apiNested.posts, {
       take: args.query.take,
     });
 
+    console.log('getPosts: posts', posts,count);
+
     return {
       status: 200,
       body: {

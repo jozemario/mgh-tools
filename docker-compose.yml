@@ -1,19 +1,19 @@
 services:
   # React App
-  nextjs-app:
-    extends:
-      file: docker-compose.base.yml
-      service: nx-app-base
-    environment:
-      - HOST=0.0.0.0
-      - DB_NAME=nextjs_app
-      - MYSQL_DATABASE=nextjs_app
-      - DATABASE_URL=postgresql://mgh_user:mgh_password@postgres:5432/nextjs_app?synchronize=true
-    build:
-      context: .
-      dockerfile: Dockerfile.ts-rest-type-safety-app
-    ports:
-      - "4201:4200"
+#  nextjs-app:
+#    extends:
+#      file: docker-compose.base.yml
+#      service: nx-app-base
+#    environment:
+#      - HOST=0.0.0.0
+#      - DB_NAME=nextjs_app
+#      - MYSQL_DATABASE=nextjs_app
+#      - DATABASE_URL=postgresql://mgh_user:mgh_password@postgres:5432/nextjs_app?synchronize=true
+#    build:
+#      context: .
+#      dockerfile: Dockerfile.ts-rest-type-safety-app
+#    ports:
+#      - "4201:4200"
 
   postgres:
     extends:

@@ -19,6 +19,7 @@
       "{workspaceRoot}/.github/workflows/ci.yml"
     ]
   },
+  "nxCloudId": "67024f06765f431800f2f545",
   "neverConnectToCloud": true,
   "targetDefaults": {
     "@nx/js:tsc": {
