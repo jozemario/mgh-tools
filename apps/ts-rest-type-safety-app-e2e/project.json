@@ -1,0 +1,9 @@
+{
+  "name": "ts-rest-type-safety-app-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/ts-rest-type-safety-app-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["ts-rest-type-safety-app"],
+  "// targets": "to see all targets run: nx show project ts-rest-type-safety-app-e2e --web",
+  "targets": {}
+}

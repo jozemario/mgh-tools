@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "noEmit": false,
+    "incremental": true,
+    
+    "tsBuildInfoFile": "../../tmp/buildcache/apps/ts-rest-type-safety-app/server",
+    
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "server/**/*.ts"
+  ]
+}
