@@ -3,7 +3,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { Toaster } from 'react-hot-toast';
 import { AppProps } from 'next/app';
 import { Metadata } from 'next'
-import './global.scss';
+import '../styles.scss';
 import { tsr } from '../pages-tsr';
 import { Layout } from '../components/fe/Layout';
 

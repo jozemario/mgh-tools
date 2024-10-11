@@ -10,13 +10,33 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": ["es2020", "dom"],
+    "lib": [
+      "es2020",
+      "dom"
+    ],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@mgh-tools/contracts": ["libs/contracts/src/index.ts"]
+      "@mgh-tools/contracts": [
+        "libs/contracts/src/index.ts"
+      ],
+      "@mgh-tools/shadcn-ui": [
+        "libs/shadcn-ui/src/index.ts"
+      ],
+      "@mgh-tools/shadcn-ui/*": [
+        "libs/shadcn-ui/src/*"
+      ],
+      "@mgh-tools/utils": [
+        "libs/utils/src/index.ts"
+      ],
+      "@mgh-tools/utils/*": [
+        "libs/utils/src/*"
+      ]
     }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
 }

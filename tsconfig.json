@@ -1,0 +1,12 @@
+// This file exist only to make the shadcn-ui cli happy ¯\_(ツ)_/¯
+//  "compilerOptions": {
+//    "baseUrl": ".",
+//    "paths": {
+//      "@mgh-tools/shadcn-ui": ["libs/shadcn-ui/src/"],
+//      "@mgh-tools/shadcn-ui/*": ["libs/shadcn-ui/src/*"]
+//    }
+//  }
+{
+  "_COMMENT": "only used by shadcn/ui cli to generate shadcn/ui components",
+  "extends": "./tsconfig.base.json"
+}

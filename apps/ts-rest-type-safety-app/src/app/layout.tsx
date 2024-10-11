@@ -1,4 +1,4 @@
-import '../pages/global.scss';
+import '../styles.scss';
 
 export const metadata = {
   title: 'Welcome to ts-rest-type-safety-app',

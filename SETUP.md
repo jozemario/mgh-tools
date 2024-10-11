@@ -118,3 +118,35 @@ nx prisma-studio ts-rest-type-safety-app
 
 
 ```
+```bash
+#shadcn
+
+#nx add @nx/react
+#pnpm add tailwindcss-animate class-variance-authority clsx tailwind-merge
+#pnpm add lucide-react @radix-ui/react-icons
+#pnpm add @tailwindcss/forms
+pnpm add -D @nx-extend/shadcn-ui
+nx g @nx-extend/shadcn-ui:init
+
+#After installation update your APPs tailwind.config.js to this:
+
+import { buildConfig } from '../libs/<lib directory>/src/tailwind.config'
+
+export default buildConfig(__dirname)
+
+
+#review components.json paths
+Usage
+#default method
+npx shadcn@latest add button
+
+npx shadcn@latest add accordion
+
+Add
+nx add shadcn button
+pnpm dlx shadcn@latest add button
+All all components
+pnpm dlx shadcn@latest add --all
+Updating the theme
+The generated global.css uses the default shadcn/ui theme. Using the shadcn/ui theme editor, you can effortlessly apply a different theme. Explore available themes here: https://ui.shadcn.com/themes
+```
